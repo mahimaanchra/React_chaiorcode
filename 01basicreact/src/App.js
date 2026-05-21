@@ -1,8 +1,9 @@
 
+import Name from "./name";
 
 function App() {
   return (
- <h1>Hello</h1>
+ <Name/>
   );
 }
 
