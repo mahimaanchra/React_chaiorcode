@@ -1,9 +1,9 @@
-
+import Name from "./name"
 
 function App() {
 
   return (
-  <h1>hello with vite</h1>  
+  <Name/>
 
   )
 }
