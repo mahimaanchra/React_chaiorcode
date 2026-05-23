@@ -7,13 +7,21 @@ function App() {
 let [counter , setCounter] = useState(15);
 
 const addValue = () =>{
+  if(counter == 20) {
+     return;
+  }else{
   counter = counter + 1;
   setCounter(counter);
+  }
 }
 
 const removeValue = () =>{
+  if(counter == 0) {
+    return;
+  }else{
   counter = counter - 1;
   setCounter(counter);
+  }
 }
   return (
     <>
